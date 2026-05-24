@@ -1,0 +1,16 @@
+tokenizers:
+  bert_ja:
+    type: huggingface
+    name: cl-tohoku/bert-base-japanese-v3
+
+  bert_ja_v2:
+    type: huggingface
+    name: cl-tohoku/bert-base-japanese-v2
+
+  cl100k:
+    type: tiktoken
+    name: cl100k_base
+
+  o200k:
+    type: tiktoken
+    name: o200k_base

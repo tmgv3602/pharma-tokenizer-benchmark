@@ -1,0 +1,22 @@
+[project]
+name = "pharma-tokenizer-benchmark"
+version = "0.1.0"
+description = "Benchmark tokenizer fragmentation for Japanese pharmaceutical terminology"
+authors = [
+  {name = "Takahiro Yamanaka"}
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = [
+  "transformers>=4.40.0",
+  "tokenizers>=0.15.0",
+  "sentencepiece>=0.2.0",
+  "tiktoken>=0.6.0",
+  "pandas>=2.0.0",
+  "numpy>=1.26.0",
+  "pyyaml>=6.0"
+]
+
+[tool.setuptools]
+py-modules = ["benchmark"]
