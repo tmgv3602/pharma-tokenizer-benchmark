@@ -31,7 +31,7 @@ may become:
 instead of:
 
 ```text
-オルプリノン | 塩酸塩
+ロプリノン | 塩酸塩
 ```
 
 Excessive fragmentation can lead to:
@@ -90,7 +90,7 @@ The notebook installs dependencies, runs the benchmark, displays tables, and dow
 
 | input | len_A | len_B |
 |---|---:|---:|
-| ロリノン塩酸塩 | 6 | 13 |
+| ロプリノン塩酸塩 | 6 | 13 |
 | ミルリノン | 3 | 7 |
 
 Actual values depend on the selected tokenizers.
